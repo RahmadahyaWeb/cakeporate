@@ -32,7 +32,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::rlRbscYgHHLIjTb5',
+            '_route' => 'generated::0A7duPcxrxPCt1sJ',
           ),
           1 => NULL,
           2 => 
@@ -52,7 +52,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::2pZXvajMnXAQm7uT',
+            '_route' => 'generated::GCcUbmg52ECoNjOF',
           ),
           1 => NULL,
           2 => 
@@ -91,7 +91,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::0Y8uRgxFihHop14S',
+            '_route' => 'generated::y5mqVqyzjytxbfr4',
           ),
           1 => NULL,
           2 => 
@@ -171,7 +171,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::wocknYYwdQJMugzh',
+            '_route' => 'generated::0OWWE55KPmBT4ppp',
           ),
           1 => NULL,
           2 => 
@@ -304,7 +304,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::rlRbscYgHHLIjTb5' => 
+    'generated::0A7duPcxrxPCt1sJ' => 
     array (
       'methods' => 
       array (
@@ -316,7 +316,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
-        'as' => 'generated::rlRbscYgHHLIjTb5',
+        'as' => 'generated::0A7duPcxrxPCt1sJ',
       ),
       'fallback' => false,
       'defaults' => 
@@ -332,7 +332,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::2pZXvajMnXAQm7uT' => 
+    'generated::GCcUbmg52ECoNjOF' => 
     array (
       'methods' => 
       array (
@@ -344,7 +344,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
-        'as' => 'generated::2pZXvajMnXAQm7uT',
+        'as' => 'generated::GCcUbmg52ECoNjOF',
       ),
       'fallback' => false,
       'defaults' => 
@@ -415,7 +415,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::0Y8uRgxFihHop14S' => 
+    'generated::y5mqVqyzjytxbfr4' => 
     array (
       'methods' => 
       array (
@@ -425,7 +425,7 @@ app('router')->setCompiledRoutes(
       'uri' => 'up',
       'action' => 
       array (
-        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:841:"function () {
+        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:844:"function () {
                     $exception = null;
 
                     try {
@@ -440,11 +440,11 @@ app('router')->setCompiledRoutes(
                         $exception = $e->getMessage();
                     }
 
-                    return response(\\Illuminate\\Support\\Facades\\View::file(\'/Users/muhammadachyadirahmat/rahmadahya/starter/vendor/laravel/framework/src/Illuminate/Foundation/Configuration\'.\'/../resources/health-up.blade.php\', [
+                    return response(\\Illuminate\\Support\\Facades\\View::file(\'/Users/muhammadachyadirahmat/rahmadahya/cakeporate/vendor/laravel/framework/src/Illuminate/Foundation/Configuration\'.\'/../resources/health-up.blade.php\', [
                         \'exception\' => $exception,
                     ]), status: $exception ? 500 : 200);
                 }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000007490000000000000000";}}',
-        'as' => 'generated::0Y8uRgxFihHop14S',
+        'as' => 'generated::y5mqVqyzjytxbfr4',
       ),
       'fallback' => false,
       'defaults' => 
@@ -577,7 +577,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::wocknYYwdQJMugzh' => 
+    'generated::0OWWE55KPmBT4ppp' => 
     array (
       'methods' => 
       array (
@@ -602,7 +602,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::wocknYYwdQJMugzh',
+        'as' => 'generated::0OWWE55KPmBT4ppp',
       ),
       'fallback' => false,
       'defaults' => 
@@ -666,7 +666,7 @@ app('router')->setCompiledRoutes(
       'uri' => 'storage/{path}',
       'action' => 
       array (
-        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:3:{s:4:"disk";s:5:"local";s:6:"config";a:5:{s:6:"driver";s:5:"local";s:4:"root";s:67:"/Users/muhammadachyadirahmat/rahmadahya/starter/storage/app/private";s:5:"serve";b:1;s:5:"throw";b:0;s:6:"report";b:0;}s:12:"isProduction";b:0;}s:8:"function";s:323:"function (\\Illuminate\\Http\\Request $request, string $path) use ($disk, $config, $isProduction) {
+        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:3:{s:4:"disk";s:5:"local";s:6:"config";a:5:{s:6:"driver";s:5:"local";s:4:"root";s:70:"/Users/muhammadachyadirahmat/rahmadahya/cakeporate/storage/app/private";s:5:"serve";b:1;s:5:"throw";b:0;s:6:"report";b:0;}s:12:"isProduction";b:0;}s:8:"function";s:323:"function (\\Illuminate\\Http\\Request $request, string $path) use ($disk, $config, $isProduction) {
                     return (new \\Illuminate\\Filesystem\\ServeFile(
                         $disk,
                         $config,

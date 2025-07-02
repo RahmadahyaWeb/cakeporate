@@ -23,7 +23,7 @@
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
     'cipher' => 'AES-256-CBC',
-    'key' => 'base64:ylfXsNbe1P3Lk9ybjQWSJ8ZZHmrxQUV7Sdzlx2b05xg=',
+    'key' => 'base64:JHUJn7d/tgHtE2V4fUeExUhNXPa+cRgpLl/6QYK5fOc=',
     'previous_keys' => 
     array (
     ),
@@ -164,8 +164,8 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => '/Users/muhammadachyadirahmat/rahmadahya/starter/storage/framework/cache/data',
-        'lock_path' => '/Users/muhammadachyadirahmat/rahmadahya/starter/storage/framework/cache/data',
+        'path' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/storage/framework/cache/data',
+        'lock_path' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/storage/framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -220,7 +220,7 @@
       array (
         'driver' => 'sqlite',
         'url' => 'postgresql://postgres.schelemzqwminkmcvmky:lsF9PymWiljWqprT@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres',
-        'database' => '/Users/muhammadachyadirahmat/rahmadahya/starter/database/database.sqlite',
+        'database' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/database/database.sqlite',
         'prefix' => '',
         'foreign_key_constraints' => true,
         'busy_timeout' => NULL,
@@ -338,7 +338,7 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => '/Users/muhammadachyadirahmat/rahmadahya/starter/storage/app/private',
+        'root' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/storage/app/private',
         'serve' => true,
         'throw' => false,
         'report' => false,
@@ -346,7 +346,7 @@
       'public' => 
       array (
         'driver' => 'local',
-        'root' => '/Users/muhammadachyadirahmat/rahmadahya/starter/storage/app/public',
+        'root' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/storage/app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
         'throw' => false,
@@ -368,13 +368,13 @@
     ),
     'links' => 
     array (
-      '/Users/muhammadachyadirahmat/rahmadahya/starter/public/storage' => '/Users/muhammadachyadirahmat/rahmadahya/starter/storage/app/public',
+      '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/public/storage' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/storage/app/public',
     ),
   ),
   'livewire' => 
   array (
     'class_namespace' => 'App\\Livewire',
-    'view_path' => '/Users/muhammadachyadirahmat/rahmadahya/starter/resources/views/livewire',
+    'view_path' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/resources/views/livewire',
     'layout' => 'components.layouts.app',
     'lazy_placeholder' => NULL,
     'temporary_file_upload' => 
@@ -438,14 +438,14 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => '/Users/muhammadachyadirahmat/rahmadahya/starter/storage/logs/laravel.log',
+        'path' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/storage/logs/laravel.log',
         'level' => 'debug',
         'replace_placeholders' => true,
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => '/Users/muhammadachyadirahmat/rahmadahya/starter/storage/logs/laravel.log',
+        'path' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/storage/logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
         'replace_placeholders' => true,
@@ -510,7 +510,7 @@
       ),
       'emergency' => 
       array (
-        'path' => '/Users/muhammadachyadirahmat/rahmadahya/starter/storage/logs/laravel.log',
+        'path' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/storage/logs/laravel.log',
       ),
     ),
   ),
@@ -588,7 +588,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => '/Users/muhammadachyadirahmat/rahmadahya/starter/resources/views/vendor/mail',
+        0 => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/resources/views/vendor/mail',
       ),
     ),
   ),
@@ -725,7 +725,7 @@
     'lifetime' => 120,
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => '/Users/muhammadachyadirahmat/rahmadahya/starter/storage/framework/sessions',
+    'files' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/storage/framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -824,9 +824,9 @@
   array (
     'paths' => 
     array (
-      0 => '/Users/muhammadachyadirahmat/rahmadahya/starter/resources/views',
+      0 => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/resources/views',
     ),
-    'compiled' => '/Users/muhammadachyadirahmat/rahmadahya/starter/storage/framework/views',
+    'compiled' => '/Users/muhammadachyadirahmat/rahmadahya/cakeporate/storage/framework/views',
   ),
   'cors' => 
   array (
