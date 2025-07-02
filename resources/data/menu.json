@@ -25,5 +25,18 @@
                 ]
             }
         ]
+    },
+    {
+        "active": "master-management",
+        "title": "Kelola Master",
+        "children": [
+            {
+                "title": "Kategori Produk",
+                "route": "master-management.product-categories",
+                "permissions": [
+                    "view product-category"
+                ]
+            }
+        ]
     }
 ]

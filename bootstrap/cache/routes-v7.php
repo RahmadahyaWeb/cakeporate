@@ -32,7 +32,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::0A7duPcxrxPCt1sJ',
+            '_route' => 'generated::hcxr7GFzePZzqAiQ',
           ),
           1 => NULL,
           2 => 
@@ -52,7 +52,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::GCcUbmg52ECoNjOF',
+            '_route' => 'generated::8ZP9X7GhloQQhxp1',
           ),
           1 => NULL,
           2 => 
@@ -91,7 +91,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::y5mqVqyzjytxbfr4',
+            '_route' => 'generated::kXZDDG47g3hP8Pxu',
           ),
           1 => NULL,
           2 => 
@@ -165,13 +165,33 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/master-management/product-categories' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'master-management.product-categories',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
       '/logout' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            '_route' => 'generated::0OWWE55KPmBT4ppp',
+            '_route' => 'generated::axvh7R6tu5M57rpx',
           ),
           1 => NULL,
           2 => 
@@ -304,7 +324,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::0A7duPcxrxPCt1sJ' => 
+    'generated::hcxr7GFzePZzqAiQ' => 
     array (
       'methods' => 
       array (
@@ -316,7 +336,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@returnJavaScriptAsFile',
-        'as' => 'generated::0A7duPcxrxPCt1sJ',
+        'as' => 'generated::hcxr7GFzePZzqAiQ',
       ),
       'fallback' => false,
       'defaults' => 
@@ -332,7 +352,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::GCcUbmg52ECoNjOF' => 
+    'generated::8ZP9X7GhloQQhxp1' => 
     array (
       'methods' => 
       array (
@@ -344,7 +364,7 @@ app('router')->setCompiledRoutes(
       array (
         'uses' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
         'controller' => 'Livewire\\Mechanisms\\FrontendAssets\\FrontendAssets@maps',
-        'as' => 'generated::GCcUbmg52ECoNjOF',
+        'as' => 'generated::8ZP9X7GhloQQhxp1',
       ),
       'fallback' => false,
       'defaults' => 
@@ -415,7 +435,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::y5mqVqyzjytxbfr4' => 
+    'generated::kXZDDG47g3hP8Pxu' => 
     array (
       'methods' => 
       array (
@@ -444,7 +464,7 @@ app('router')->setCompiledRoutes(
                         \'exception\' => $exception,
                     ]), status: $exception ? 500 : 200);
                 }";s:5:"scope";s:54:"Illuminate\\Foundation\\Configuration\\ApplicationBuilder";s:4:"this";N;s:4:"self";s:32:"00000000000007490000000000000000";}}',
-        'as' => 'generated::y5mqVqyzjytxbfr4',
+        'as' => 'generated::kXZDDG47g3hP8Pxu',
       ),
       'fallback' => false,
       'defaults' => 
@@ -577,7 +597,46 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::0OWWE55KPmBT4ppp' => 
+    'master-management.product-categories' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'master-management/product-categories',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'auth',
+          2 => 'permission:view product-category',
+        ),
+        'uses' => 'App\\Livewire\\Menu\\ProductCategory@__invoke',
+        'controller' => 'App\\Livewire\\Menu\\ProductCategory',
+        'as' => 'master-management.product-categories',
+        'namespace' => NULL,
+        'prefix' => '/master-management',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'generated::axvh7R6tu5M57rpx' => 
     array (
       'methods' => 
       array (
@@ -602,7 +661,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::0OWWE55KPmBT4ppp',
+        'as' => 'generated::axvh7R6tu5M57rpx',
       ),
       'fallback' => false,
       'defaults' => 

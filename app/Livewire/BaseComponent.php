@@ -40,6 +40,7 @@ class BaseComponent extends Component
     {
         if (!$this->authorizePermission('save')) {
             $this->showAlert(config('alert.permission'), 'danger', 'Error');
+            $this->toggleCrudModal();
             return;
         }
 
@@ -56,6 +57,7 @@ class BaseComponent extends Component
             DB::rollBack();
 
             $this->showAlert($e->getMessage(), 'danger', 'Error');
+            $this->toggleCrudModal();
         }
     }
 
@@ -63,6 +65,7 @@ class BaseComponent extends Component
     {
         if (!$this->authorizePermission('delete')) {
             $this->showAlert(config('alert.permission'), 'danger', 'Error');
+            $this->toggleCrudModal();
             return;
         }
 
@@ -79,6 +82,7 @@ class BaseComponent extends Component
             report($e);
 
             $this->showAlert($e->getMessage(), 'danger', 'Error');
+            $this->toggleCrudModal();
         }
     }
 
