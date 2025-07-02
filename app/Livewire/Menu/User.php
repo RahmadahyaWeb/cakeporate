@@ -9,6 +9,8 @@ use Spatie\Permission\Models\Role;
 
 class User extends BaseComponent
 {
+    public $target = "create, edit, save, delete, toggleCrudModal";
+
     public $modalTitle = 'Form Pengguna';
 
     protected array $permissionMap = [
@@ -86,6 +88,7 @@ class User extends BaseComponent
             $user = ModelsUser::findOrFail($this->editing['id']);
 
             $user->name = $this->editing['name'];
+            $user->email = $this->editing['email'];
             $user->save();
 
             if (!empty($this->editing['role'])) {

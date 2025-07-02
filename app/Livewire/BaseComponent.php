@@ -90,6 +90,8 @@ class BaseComponent extends Component
             $this->reset('editing');
         }
 
+        $this->resetErrorBag();
+
         $this->dispatch('toggle-modal', [
             'id' => '#crud-modal',
         ]);

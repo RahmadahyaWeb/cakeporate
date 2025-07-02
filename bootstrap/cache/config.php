@@ -213,14 +213,14 @@
   ),
   'database' => 
   array (
-    'default' => 'mysql',
+    'default' => 'pgsql',
     'connections' => 
     array (
       'sqlite' => 
       array (
         'driver' => 'sqlite',
-        'url' => NULL,
-        'database' => 'toko_ana',
+        'url' => 'postgresql://postgres.schelemzqwminkmcvmky:lsF9PymWiljWqprT@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres',
+        'database' => '/Users/muhammadachyadirahmat/rahmadahya/starter/database/database.sqlite',
         'prefix' => '',
         'foreign_key_constraints' => true,
         'busy_timeout' => NULL,
@@ -230,10 +230,10 @@
       'mysql' => 
       array (
         'driver' => 'mysql',
-        'url' => NULL,
+        'url' => 'postgresql://postgres.schelemzqwminkmcvmky:lsF9PymWiljWqprT@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres',
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'toko_ana',
+        'database' => 'laravel',
         'username' => 'root',
         'password' => '',
         'unix_socket' => '',
@@ -250,10 +250,10 @@
       'mariadb' => 
       array (
         'driver' => 'mariadb',
-        'url' => NULL,
+        'url' => 'postgresql://postgres.schelemzqwminkmcvmky:lsF9PymWiljWqprT@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres',
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'toko_ana',
+        'database' => 'laravel',
         'username' => 'root',
         'password' => '',
         'unix_socket' => '',
@@ -270,25 +270,25 @@
       'pgsql' => 
       array (
         'driver' => 'pgsql',
-        'url' => NULL,
+        'url' => 'postgresql://postgres.schelemzqwminkmcvmky:lsF9PymWiljWqprT@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres',
         'host' => '127.0.0.1',
-        'port' => '3306',
-        'database' => 'toko_ana',
+        'port' => '5432',
+        'database' => 'laravel',
         'username' => 'root',
         'password' => '',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
-        'search_path' => 'public',
+        'search_path' => 'laravel',
         'sslmode' => 'prefer',
       ),
       'sqlsrv' => 
       array (
         'driver' => 'sqlsrv',
-        'url' => NULL,
-        'host' => '127.0.0.1',
-        'port' => '3306',
-        'database' => 'toko_ana',
+        'url' => 'postgresql://postgres.schelemzqwminkmcvmky:lsF9PymWiljWqprT@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres',
+        'host' => 'localhost',
+        'port' => '1433',
+        'database' => 'laravel',
         'username' => 'root',
         'password' => '',
         'charset' => 'utf8',
@@ -684,13 +684,13 @@
     ),
     'batching' => 
     array (
-      'database' => 'mysql',
+      'database' => 'pgsql',
       'table' => 'job_batches',
     ),
     'failed' => 
     array (
       'driver' => 'database-uuids',
-      'database' => 'mysql',
+      'database' => 'pgsql',
       'table' => 'failed_jobs',
     ),
   ),

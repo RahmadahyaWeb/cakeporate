@@ -1,4 +1,6 @@
 <div>
+    <x-ui.loading :target="$target" />
+
     <x-slot name="header">Hak Akses Pengguna</x-slot>
 
     <div class="flex justify-between mt-5">

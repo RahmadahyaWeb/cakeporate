@@ -8,6 +8,8 @@ use Spatie\Permission\Models\Permission;
 
 class Role extends BaseComponent
 {
+    public $target = "create, edit, save, delete, toggleCrudModal";
+
     public $modalTitle = 'Form Hak Akses Pengguna';
 
     protected array $permissionMap = [
