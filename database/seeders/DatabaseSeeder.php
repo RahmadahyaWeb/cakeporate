@@ -46,6 +46,10 @@ class DatabaseSeeder extends Seeder
             'view product-category',
             'edit product-category',
             'delete product-category',
+
+            'view product',
+            'edit product',
+            'delete product',
         ];
 
         foreach ($permissions as $permission) {

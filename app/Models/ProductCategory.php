@@ -12,10 +12,15 @@ class ProductCategory extends Model
     {
         $lastCode = self::orderBy('code', 'desc')->value('code');
 
-        $lastNumber = $lastCode ? (int)str_replace('SC-', '', $lastCode) : 0;
+        $lastNumber = $lastCode ? (int)str_replace('PC-', '', $lastCode) : 0;
 
         $nextNumber = $lastNumber + 1;
 
-        return 'SC-' . str_pad($nextNumber, 3, '0', STR_PAD_LEFT);
+        return 'PC-' . str_pad($nextNumber, 3, '0', STR_PAD_LEFT);
+    }
+
+    public function products()
+    {
+        return $this->hasMany(Product::class);
     }
 }

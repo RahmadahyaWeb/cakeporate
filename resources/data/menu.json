@@ -32,9 +32,16 @@
         "children": [
             {
                 "title": "Kategori Produk",
-                "route": "master-management.product-categories",
+                "route": "master-management.categories",
                 "permissions": [
                     "view product-category"
+                ]
+            },
+            {
+                "title": "Produk",
+                "route": "master-management.product",
+                "permissions": [
+                    "view product"
                 ]
             }
         ]
