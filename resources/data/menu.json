@@ -31,6 +31,13 @@
         "title": "Kelola Master",
         "children": [
             {
+                "title": "Pelanggan",
+                "route": "master-management.customers",
+                "permissions": [
+                    "view customer"
+                ]
+            },
+            {
                 "title": "Kategori Produk",
                 "route": "master-management.categories",
                 "permissions": [
@@ -39,7 +46,7 @@
             },
             {
                 "title": "Produk",
-                "route": "master-management.product",
+                "route": "master-management.products",
                 "permissions": [
                     "view product"
                 ]
